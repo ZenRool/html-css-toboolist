@@ -35,6 +35,7 @@ header a{
     width: 100%;
     background-color: #f4f7fb;
     padding-top: 4%;
+    padding-bottom: 10%;
 }
 #container{
     
@@ -109,4 +110,53 @@ ul ul{
     margin-right: 10px;
     border: 2px red solid;
     border-radius: 50%;
+}
+/* notifica colorata */
+.Editorial::after{
+    content: "Editorial";
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+.QOne::after{
+    content: "Q1 Golals";
+    background-color: mediumorchid;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+.Recrulting::after{
+    content: "Recrulting";
+    background-color: aquamarine;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+.Mobile::after{
+    content: "Mobile";
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+.Website::after{
+    content: "Website";
+    background-color: fuchsia;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+.Sales::after{
+    content: "Sales";
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
 }
