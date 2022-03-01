@@ -92,71 +92,55 @@ ul ul{
  .no{ 
     list-style-image: url("../img/cancel_black_24dp.svg");
  }  */
- ul ul li{
-     line-height: 3em;
- }
- .yes::before{
+ul ul li::before{
+    margin-left: -20px; 
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.yes::before{
     content: '\2714';
     color:green;
-    margin-left: -20px; 
-    margin-right: 10px;
     border: 2px green solid;
-    border-radius: 50%;
- }
- .no::before{
+}
+.no::before{
     content: '\2A2F';
     color:red;
-    margin-left: -20px; 
-    margin-right: 10px;
     border: 2px red solid;
-    border-radius: 50%;
+ }
+ul ul li{
+    line-height: 3em;
 }
 /* notifica colorata */
+ul ul li::after{
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;     
+    color: white;
+}
 .Editorial::after{
     content: "Editorial";
     background-color: deepskyblue;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
+
 }
 .QOne::after{
     content: "Q1 Golals";
     background-color: mediumorchid;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
+    
 }
 .Recrulting::after{
     content: "Recrulting";
     background-color: aquamarine;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
 }
 .Mobile::after{
     content: "Mobile";
     background-color: orange;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
 }
 .Website::after{
     content: "Website";
     background-color: fuchsia;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
 }
 .Sales::after{
     content: "Sales";
     background-color: lightgreen;
-    color: white;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px;
 }
