@@ -68,3 +68,12 @@ nav button:last-child{
     color: lightgray;
     border-color: lightgrey;
 }
+/* Parte del main con le liste annodate */
+main{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+main>ul{
+    list-style-image: url("../img/keyboard_arrow_down_black_24dp.svg");
+    
+}
