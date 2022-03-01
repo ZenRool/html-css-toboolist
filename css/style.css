@@ -77,3 +77,36 @@ main>ul{
     list-style-image: url("../img/keyboard_arrow_down_black_24dp.svg");
     
 }
+ul{
+    padding-bottom: 30px;
+}
+/* secondda lista annidata */
+ul ul{
+    list-style: none;
+}
+/* .yes{ 
+    list-style-image: url("../img/check_circle_black_24dp.svg");
+ } 
+
+ .no{ 
+    list-style-image: url("../img/cancel_black_24dp.svg");
+ }  */
+ ul ul li{
+     line-height: 3em;
+ }
+ .yes::before{
+    content: '\2714';
+    color:green;
+    margin-left: -20px; 
+    margin-right: 10px;
+    border: 2px green solid;
+    border-radius: 50%;
+ }
+ .no::before{
+    content: '\2A2F';
+    color:red;
+    margin-left: -20px; 
+    margin-right: 10px;
+    border: 2px red solid;
+    border-radius: 50%;
+}
